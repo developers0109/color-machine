@@ -65,6 +65,12 @@ void loop() {
   } 
   delay(200);
   
+  for(int i = 29; i < 115; i++) {
+    topServo.write(i);
+    delay(2);
+  }
+  color=0;
+  
 }
 // Custom Function - readColor()
 int readColor() {
